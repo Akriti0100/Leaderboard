@@ -1,10 +1,10 @@
 import React from 'react';
-import Leaderboard from './Components/Leaderboard.js';
+import Box from './Components/Box.js';
 
 function App() {
   return (
     <div className="App">
-      <Leaderboard />
+      <Box />
     </div>
   );
 }

@@ -1,0 +1,9 @@
+.Box{
+    width: 25%;
+    height: 50%;
+    text-align: center;
+    background-color: black;
+    /*color:black;*/
+    padding: 10px 40px;
+    border-style: solid;
+}

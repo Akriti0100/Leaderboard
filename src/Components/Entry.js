@@ -1,17 +1,13 @@
 import React from 'react';
-
+import { Col } from 'reactstrap';
 
 const Entry = (props) =>{
     return(
-        <div className="table-content">
-            <table>
-                <tr>
-                    <td> {props.item.continent} </td>
-                    <td> {props.item.team_name} </td>
-                    <td> {props.item.rank} </td>
-                    <td> {props.item.resources} </td>
-                </tr>
-            </table>
+        <div>
+                <Col xs="6" sm="4"> {props.item.continent} </Col>
+                <Col xs="6" sm="4"> {props.item.team_name} </Col>
+                <Col xs="6" sm="4"> {props.item.rank} </Col>
+                <Col xs="6" sm="4"> {props.item.resources} </Col>
         </div>
     )
 }
