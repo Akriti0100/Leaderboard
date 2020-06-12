@@ -1,11 +1,11 @@
 import React from 'react';
-import Leaderboard from './Leaderboard.js';
+import Entry from './Entry.js';
 import './Box.css';
 
 const Box = () =>{
     return(
-        <div>
-            <Leaderboard />
+        <div className='Box'>
+            <Entry />
         </div>
     );
 }
